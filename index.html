@@ -1,10 +1,302 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" href="styles.css">
+
   <head>
     <meta charset="utf-8">
     <title>Oregon Zoo</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
-    
+    <div class="main-nav">
+      <img src="https://www.oregonzoo.org/sites/default/files/2014/01/29/OZ_Logo_H_REV_140.gif" alt="Oregon Zoo Logo">
+      <img src="https://library.oregonmetro.gov/images/logos/Metro_logo_white_120_50.png" alt="Metro Logo">
+      <ul>
+        <li><a href="#">for educators</a></li>
+        <li><a href="#">zoo news</a></li>
+        <li><a href="#">calendar</a></li>
+      </ul>
+      <input type="text"> <button type="submit" name="search">SEARCH</button>
+      <a href="#">Today's hours: Temporarily closed</a>
+      <ul class="nav">
+        <li> <a href="#">Visit</a> </li>
+        <li> <a href="#">Discover</a> </li>
+        <li> <a href="#">Get involved</a> </li>
+        <li> <a href="#">Conserve</a> </li>
+        <li> <a href="#">About</a> </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="red-panda">
+        <div class="red-panda-sub-div">
+          <p>We're getting ready to welcome you back.</p>
+          <a href="#">What to know before you go.</a>
+          <button type="button" name="learn-more">Learn more</button>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <p>Connect on social</p>
+        <a href="https://www.facebook.com/oregonzoo">
+          <img src="" alt="facebook">
+        </a>
+        <a href="https://www.instagram.com/oregonzoo/">
+          <img src="" alt="instagram">
+        </a>
+        <a href="https://twitter.com/oregonzoo">
+          <img src="" alt="twitter">
+        </a>
+        <a href="https://www.youtube.com/user/oregonzoo">
+          <img src="" alt="youtube">
+        </a>
+        <a href="https://www.tiktok.com/@oregonzoo">
+          <img src="" alt="tiktok">
+        </a>
+      </div>
+
+      <div class="penguins">
+        <div class="penguin-sub-div">
+          <p>The care continues when the zoo is closed</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="tile">
+        <p>Zoo news</p>
+        <a href="">Zoo helps find home for 8-week-old cougar cub</a>
+        <p>A tiny, orphaned cougar cub with a big appetite made a brief stop at the Oregon Zoo's veterinary medical center this...
+        </p>
+        <a href="">read more</a>
+        <img src="" alt="cheetah cub">
+      </div>
+      <div class="tile">
+        <p>Zoo news</p>
+        <a href="#">Oregon Zoo supports the fight for justice and reform</a>
+        <p>Without our community, the Oregon Zoo wouldn't exist. In this time of crisis, we have a responsibility to our community...
+        </p>
+        <a href="">read more</a>
+        <img src="" alt="black square">
+      </div>
+      <div class="tile">
+        <a href="">DONATE NOW</a>
+        <a href="">BECOME A MEMBER</a>
+        <a href="">PURCHASE TICKETS</a>
+        <a href="">PLAN YOUR EVENT</a>
+      </div>
+
+      <div class="form-div">
+        <img src="" alt="seals">
+
+        <form action="index.html" method="post">
+
+          <fieldset>
+            <legend>Donation Amount</legend>
+            <button type="button">$100</button>
+            <button type="button">$250</button>
+            <button type="button">$500</button>
+            <button type="button">$1,000</button>
+            <button type="button">Other</button>
+            <label for="message">Send us a message! (optional):</label>
+            <input type="text" placeholder="optional">
+          </fieldset>
+
+          <fieldset>
+            <legend>Monthly Donations</legend>
+            <input type="checkbox">Make this a monthly gift</input>
+          </fieldset>
+
+          <fieldset>
+            <legend>Payment Details</legend>
+            <a href="">Payment Processed by BlackBaud</a>
+            <label for="cardholder-name">Card number:</label>
+            <input type="text">
+            <label for="cardholder-name">Cardholder name:</label>
+            <input type="text">
+            <label for="expiration">Expiration:</label>
+            <select>
+              <option value="">Month</option>
+              <option value="January">01</option>
+              <option value="February">02</option>
+              <option value="March">03</option>
+              <option value="April">04</option>
+              <option value="May">05</option>
+              <option value="June">06</option>
+              <option value="July">07</option>
+              <option value="August">08</option>
+              <option value="September">09</option>
+              <option value="October">10</option>
+              <option value="November">11</option>
+              <option value="Decemeber">12</option>
+            </select>
+            <select>
+              <option value="">Year</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+              <option value="2027">2027</option>
+              <option value="2028">2028</option>
+              <option value="2029">2029</option>
+              <option value="2030">2030</option>
+              <option value="2031">2031</option>
+              <option value="2032">2032</option>
+              <option value="2033">2033</option>
+              <option value="2034">2034</option>
+            </select>
+            <label for="csc">CSC:</label>
+            <input type="text">
+          </fieldset>
+
+          <fieldset>
+            <legend>Billing Address</legend>
+            <label for="billing-name">Name:</label>
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="last name">
+            <label for="billing-email">Email:</label>
+            <input type="text">
+            <label for="billing-phone">Phone:</label>
+            <input type="text" placeholder="optional">
+            <label for="billing-country">Country:</label>
+            <select>
+              <option value="ARGENTINA">ARGENTINA</option>
+              <option value="AUSTRALIA">AUSTRALIA</option>
+              <option value="AUSTRIA">AUSTRIA</option>
+              <option value="CANADA">CANADA</option>
+              <option value="CHILE">CHILE</option>
+              <option value="CZECH REPUBLIC">CZECH REPUBLIC</option>
+              <option value="DENMARK">DENMARK</option>
+              <option value="EGYPT">EGYPT</option>
+              <option value="FRANCE">FRANCE</option>
+              <option value="GERMANY">GERMANY</option>
+              <option value="GUAM">GUAM</option>
+              <option value="GUATEMALA">GUATEMALA</option>
+              <option value="HUNGARY">HUNGARY</option>
+              <option value="ICELAND">ICELAND</option>
+              <option value="INDIA">INDIA</option>
+              <option value="IRELAND">IRELAND</option>
+              <option value="ISRAEL">ISRAEL</option>
+              <option value="ITALY">ITALY</option>
+              <option value="JAPAN">JAPAN</option>
+              <option value="MALAYSIA">MALAYSIA</option>
+              <option value="NETHERLANDS">NETHERLANDS</option>
+              <option value="NEW ZEALAND">NEW ZEALAND</option>
+              <option value="SINGAPORE">SINGAPORE</option>
+              <option value="SPAIN">SPAIN</option>
+              <option value="SWEDEN">SWEDEN</option>
+              <option value="SWITZERLAND">SWITZERLAND</option>
+              <option value="THAILAND">THAILAND</option>
+              <option value="UNITED STATES" selected>UNITED STATES</option>
+              <option value="UNITED ARAB EMIRATES">UNITED ARAB EMIRATES</option>
+              <option value="ZAMBIA">ZAMBIA</option>
+            </select>
+            <label for="billing-address">Address:</label>
+            <input type="text">
+            <label for="billing-city">City:</label>
+            <input type="text">
+            <label for="state-and-zip">State &amp; zip:</label>
+            <select>
+              <option value="">state</option>
+              <option value="AA">AA</option>
+              <option value="AB">AB</option>
+              <option value="AE">AE</option>
+              <option value="AK">AK</option>
+              <option value="AL">AL</option>
+              <option value="AP">AP</option>
+              <option value="AR">AR</option>
+              <option value="AS">AS</option>
+              <option value="AZ">AZ</option>
+              <option value="BC">BC</option>
+              <option value="CA">CA</option>
+              <option value="CO">CO</option>
+              <option value="CT">CT</option>
+              <option value="CZ">CZ</option>
+              <option value="DC">DC</option>
+              <option value="DE">DE</option>
+              <option value="FL">FL</option>
+              <option value="FM">FM</option>
+              <option value="GA">GA</option>
+              <option value="GU">GU</option>
+              <option value="HI">HI</option>
+              <option value="IA">IA</option>
+              <option value="ID">ID</option>
+              <option value="IL">IL</option>
+              <option value="IN">IN</option>
+              <option value="KS">KS</option>
+              <option value="KY">KY</option>
+              <option value="LA">LA</option>
+              <option value="MA">MA</option>
+              <option value="MB">MB</option>
+              <option value="MD">MD</option>
+              <option value="ME">ME</option>
+              <option value="MH">MH</option>
+              <option value="MI">MI</option>
+              <option value="MN">MN</option>
+              <option value="MO">MO</option>
+              <option value="MP">MP</option>
+              <option value="MT">MT</option>
+              <option value="NB">NB</option>
+              <option value="NC">NC</option>
+              <option value="NE">NE</option>
+              <option value="NH">NH</option>
+              <option value="NJ">NJ</option>
+              <option value="NL">NL</option>
+              <option value="NM">NM</option>
+              <option value="NS">NS</option>
+              <option value="NT">NT</option>
+              <option value="NU">NU</option>
+              <option value="NY">NY</option>
+              <option value="OH">OH</option>
+              <option value="OK">OK</option>
+              <option value="ON">ON</option>
+              <option value="OR">OR</option>
+              <option value="PE">PE</option>
+              <option value="PR">PR</option>
+              <option value="PW">PW</option>
+              <option value="QC">QC</option>
+              <option value="RI">RI</option>
+              <option value="SC">SC</option>
+              <option value="SD">SD</option>
+              <option value="SK">SK</option>
+              <option value="TN">TN</option>
+              <option value="TX">TX</option>
+              <option value="UT">UT</option>
+              <option value="VA">VA</option>
+              <option value="VI">VI</option>
+              <option value="VT">VT</option>
+              <option value="WA">WA</option>
+              <option value="WI">WI</option>
+              <option value="WV">WV</option>
+              <option value="WY">WY</option>
+              <option value="YT">YT</option>
+              <option value="NSW">NSW</option>
+              <option value="QLD">QLD</option>
+              <option value="ACT">ACT</option>
+              <option value="AUS">AUS</option>
+              <option value="O">O</option>
+              <option value="OT">OT</option>
+            </select>
+            <input type="text" placeholder="zip">
+            <input type="checkbox">I would like this gift to remain anonymous</input>
+          </fieldset>
+          <button type="submit">Donate Now</button>
+        </form>
+      </div>
+
+    <footer>
+      <a href="https://www.oregonzoo.org/about/about-oregon-zoo-foundation"> <img src="" alt="oregon zoo foundation"> </a>
+      <a href="https://www.aza.org/"> <img src="" alt="association of zoos and aquariums"> </a>
+      <a href="http://www.waza.org/en/site/home"> <img src="" alt="world association of zoos and aquariums"> </a>
+      <a href="https://polarbearsinternational.org/"> <img src="" alt="polar bears international"> </a>
+      <a href="https://www.travelportland.com/"> <img src="" alt="travel portland"> </a>
+      <a href="https://www.travelportland.com/"> <img src="" alt="banfield pet hospital"> </a>
+      <a href="https://www.flir.com/"> <img src="" alt="FLIR"> </a>
+      <a href="https://www.kgw.com/"> <img src="" alt="KGW8"> </a>
+    </footer>
+
   </body>
+
 </html>
