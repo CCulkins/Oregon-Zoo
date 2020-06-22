@@ -1,3 +1,60 @@
 body {
 background-color: black;
+color: white;
+}
+
+
+/* Google Fonts
+Slab serif: roboto slab 40px;
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+</style>
+
+font-family: 'Roboto Slab', serif;
+
+bottom links
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+</style>
+
+font-family: 'Almarai', sans-serif;
+
+Other
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Cabin+Condensed:wght@500;600&display=swap');
+</style>
+
+font-family: 'Almarai', sans-serif;
+font-family: 'Cabin Condensed', sans-serif;
+
+ -------------------- */
+
+/* Media Queries -------------------- */
+
+/* Mobile */
+@media (max-width: 610px) {
+  body {
+    background: darkred;
+  }
+}
+
+/* Breakpoint 2 */
+@media (min-width: 611px) and (max-width: 750px) {
+  body {
+    background: orange;
+  }
+}
+
+/* Breakpoint 3 */
+@media (min-width: 751px) and (max-width: 1024px) {
+  body {
+    background: green;
+  }
+}
+
+/* Full Screen */
+@media (min-width: 1025px) {
+
 }
