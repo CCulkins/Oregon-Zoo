@@ -1,8 +1,47 @@
 body {
 background-color: black;
-color: white;
+background-image: url('images/cassie-lafferty-lion2-unsplash.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+color: #EEF0EE;
+}
+/* image source: https://unsplash.com/photos/Y2pH9NuO84w */
+
+.logos img {
+  width: 35px;
+  height: 35px;
+  background-color: #EEF0EE;
+  border-radius: 10px;
+  padding: 7px;
 }
 
+.red-panda {
+  background-image: url('images/jessica-weiller-redpanda-unsplash.jpg');
+}
+
+/* image source: https://unsplash.com/photos/GAw5wFLVWVo */
+
+.penguins {
+  background-image: url('images/atlas-kadrow-penguin-unsplash.jpg')
+}
+
+/* image source: https://unsplash.com/photos/4m93a-sZsDs */
+
+/* cougar image source: https://unsplash.com/photos/6bZQonml5do */
+
+.seal {
+  background-image: url('images/samuel-scrimshaw-seal-unsplash.jpg');
+
+}
+
+/* image source: https://unsplash.com/photos/bHHR2jn7dYM */
+
+.otter {
+  background-image: url('images/thomas-lipke-otters-unsplash.jpg');
+}
+
+/* image source: https://unsplash.com/photos/_LKpNxAzSog */
+/* https://unsplash.com/photos/lDXo_PA_8BU */
 
 /* Google Fonts
 Slab serif: roboto slab 40px;
